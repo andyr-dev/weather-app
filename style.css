@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  display: grid;
+  background-image: url(./images/weather.png);
+}
+#forecast-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#dayCards {
+  display: flex;
+  padding: 30px;
+}
+
+#day1,
+#day2,
+#day3,
+#day4,
+#day5 {
+  margin: 30px;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+h1 {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+#current-weather-container {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#current-weather-container h2 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+#forecast-container h2 {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#current-weather {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 30px;
+}
+
+#city-name {
+  font-size: 25px;
+}

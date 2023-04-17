@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <section id="search-container">
+      <form>
+        <input type="text" id="input" placeholder="Search for Location" />
+        <button id="searchBtn">Submit</button>
+      </form>
+    </section>
+    <section id="current-weather-container">
+      <h2>Current Weather</h2>
+      <div id="current-weather">
+        <h3 id="city-name"></h3>
+        <p id="current-date"></p>
+        <img id="current-icon" />
+        <p id="current-temp"></p>
+        <p id="current-humidity"></p>
+        <p id="current-wind-speed"></p>
+      </div>
+    </section>
+    <section id="forecast-container">
+      <h2>5 Day Forecast</h2>
+      <div id="dayCards">
+        <div id="day1"></div>
+
+        <div id="day2"></div>
+
+        <div id="day3"></div>
+
+        <div id="day4"></div>
+
+        <div id="day5"></div>
+      </div>
+    </section>
+    <section id="search-history-container">
+      <p>Search History:</p>
+      <p id="searchHistory"></p>
+      <ul id="searchList"></ul>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
